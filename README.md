@@ -1,5 +1,4 @@
 Base Bridge
-
 ```markdown
 # Base Bridge
 ```bash
