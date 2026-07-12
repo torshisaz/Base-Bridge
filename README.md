@@ -10,7 +10,7 @@ contract Bridge {
     IERC20 public token;
     mapping(uint256 => bool) public lockedTokens;
     constructor(address _token) {
-        token = IERC20(_token);
+        = IERC20(_token);
     }
     function lockTokens(uint256 amount) external {
         token.transferFrom(msg.sender, address(this), amount);
